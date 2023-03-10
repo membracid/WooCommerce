@@ -1,10 +1,13 @@
+ /* */ don't show product image in table /* */
 .woocommerce #content div.product .woocommerce-product-gallery {
  display:none;
  }
-
+ 
+ /* */show a small thumbnail in search or related products  /* */
 .woocommerce ul.products li.product a img, .woocommerce-page ul.products li.product a img {
 	width: 40px; height: auto; }
 
+ /* */ move the image to the left  /* */
 .woocommerce #content div.product div.summary {
  float: left;
  }
